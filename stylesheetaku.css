@@ -1,0 +1,165 @@
+/* CONTAINER */
+
+.container {
+    /* border: 2px solid yellow; */
+    margin: 50px 50px;
+}
+
+
+/* SECTION 1 */
+
+.section {
+    display: flex;
+
+
+    /* gap:100px; */
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    /* height:800px; */
+}
+
+
+
+
+.left {
+
+    height: 270px;
+    flex-basis: 550px;
+
+}
+
+.left h1 {
+    font-size: 58px;
+}
+
+.left p {
+    margin-bottom: 40px;
+    font-size:15px;
+}
+
+.left a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration:none;
+    background-color: teal;
+    font-size: 17px;
+    padding: 10px 10px;
+    margin: 20px 0;
+    ;
+    border-radius: 30px;
+}
+.image{border-radius:20px;}
+
+/* SECTION 2 */
+
+.section-two h2 {
+    font-size: 40px;
+}
+
+.two-flex {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.head {
+    font-size: 22px;
+}
+
+.head p {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+/* SECTION 3 */
+
+.section-three {
+    display: flex;
+    gap: 100px;
+    border-radius:20px;
+    background-color:teal;
+
+    justify-content: center;
+
+    align-items: center;
+    border: 2px solid green;
+}
+
+.left-image{
+    border-radius:40px;
+    padding:20px;}
+
+.right{color:white;}
+
+.right h2{font-size:30px;}
+
+/* SECTION 4 */
+
+.section-four{
+    margin-top:100px;
+}
+
+.section-four h1{
+    font-size:40px;
+    font-weight: bolder;
+    margin-bottom: 40px;;
+}
+
+.four-flex {
+    display: flex;
+    gap: 190px;
+    justify-content: stretch; 
+    
+    
+}
+
+.first{ 
+    border-radius:20px;
+    box-shadow: gray;
+    box-shadow: 0px 10px 20px 0px gray;
+}
+.second{
+    border-radius:20px;
+    box-shadow: 0 10px 20px 0px rgba(78, 71, 71, 0.753);
+}
+.third{
+    border-radius:20px;
+    box-shadow: 0px 10px 20px 0px gray;}
+.our{border-radius: 20px;
+border-bottom-left-radius: 0;
+border-bottom-right-radius:0;}
+
+ul {
+    list-style: none;
+    line-height: 40px;
+}
+
+.product {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.last {
+    display: flex;
+    justify-content: space-between;
+}
+
+.last li{
+    font-weight: bolder;
+    font-size:20px;
+
+}
+
+.last a{ 
+    color:white; 
+    text-transform: uppercase;
+    font-size:14px;
+    text-decoration:none;
+    border-radius:15px;
+    background-color:teal;
+    padding: 0 10px;
+    margin-right: 10px;
+}
